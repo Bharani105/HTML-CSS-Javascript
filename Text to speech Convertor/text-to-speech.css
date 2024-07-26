@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(120, 120, 206);
+}
+
+h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+
+}
+.container{
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+}
+
+#text-To-Speak{
+    padding:30px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: 0;
+    resize: none;
+}
+
+#container-btn{
+    display: grid;
+    justify-content:center;
+    padding:15px ;
+}
+
+#btn-listen{
+    background-color: rgb(77, 74, 74);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 75px;
+    border: none;
+}
